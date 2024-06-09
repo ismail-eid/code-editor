@@ -18,3 +18,10 @@
   bottom: 0;
   opacity: 0;
 }
+
+.preview-error {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: red;
+}
