@@ -12,7 +12,7 @@ const TextEditor: React.FC = () => {
       if (ref.current && event.target && ref.current.contains(event.target as Node)) {
         return;
       }
-      
+
       setEditing(false);
     }
     document.addEventListener('click', listener, { capture: true });
